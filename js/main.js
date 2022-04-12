@@ -46,4 +46,4 @@ sr.reveal(".skills__image", { delay: 400 });
 
 sr.reveal(".work__img", { interval: 200 });
 
-sr.reveal(".contact__input", { interval: 200 });
+// sr.reveal(".contact__input", { interval: 200 });
