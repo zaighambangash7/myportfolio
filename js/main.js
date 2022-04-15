@@ -58,4 +58,4 @@ function sendEmail() {
     Body: "And this is the body",
   }).then((message) => alert(message));
 }
-console.log(document.getElementById(Email).value);
+// console.log(document.getElementById(Email).value);
