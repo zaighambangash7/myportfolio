@@ -166,12 +166,12 @@
             <h2 class="section-title">Contact</h2>
 
             <div class="contact__container bd-grid">
-                <form onsubmit="sendEmail()" class="contact__form">
+                <form class="contact__form">
                     <input type="text" placeholder="Name" class="contact__input">
                     <input type="Mail" placeholder="Email" id="Email"class="contact__input">
                     <textarea name="" id="" placeholder="Message" cols="0" rows="10" class="contact__input"></textarea>
 
-                    <button type="Submit"  class="contact__button button"></button>
+                    <input type="button" value="Submit" onclick="sendEmail()"  class="contact__button button">
                     <!-- <a href="/cv/Zaigham Abbas.pdf"><input type="button" value="Resume" class="contact__button1 button"></a> -->
                 </form>
             </div>
