@@ -339,14 +339,14 @@ img {
   cursor: pointer;
   margin-left: auto;
 }
-.contact__button1 {
+/* .contact__button1 {
   display: wrap;
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  /* margin-left: auto; */
-}
+  margin-left: auto;
+}*/
 
 .footer {
   background-color: var(--second-color);
