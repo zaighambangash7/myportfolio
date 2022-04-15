@@ -49,7 +49,7 @@ sr.reveal(".work__img", { interval: 200 });
 // sr.reveal(".contact__input", { interval: 200 });
 function sendEmail() {
   Email.send({
-    Host: "smtp.yourisp.com",
+    Host: "smtp.gmail.com",
     Username: "username",
     Password: "password",
     To: "them@website.com",
