@@ -53,7 +53,7 @@ function sendEmail() {
     Username: "zaighamdonbhai@gmail.com",
     Password: "8ballpool",
     To: "zaighambangash7@gmail.com",
-    From: document.getElementById(Email).value,
+    From: document.getElementById(Email).value(),
     Subject: "New contact form entry",
     Body: "And this is the body",
   }).then((message) => alert(message));
